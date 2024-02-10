@@ -1,0 +1,17 @@
+nav {
+    background-color: #2C3E50;
+    color: white;
+}
+.navbar-brand , .nav-link {
+    color: white;
+    font-weight:700;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+.nav-link {
+    font-size: 1rem;
+}
+.active-link {
+    background-color: #1ABC9C;
+}

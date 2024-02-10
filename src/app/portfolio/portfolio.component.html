@@ -1,0 +1,23 @@
+<section class="poetfolio d-flex justify-content-center align-items-center pb-4">
+    <div class="container">
+        <div class="d-flex justify-content-center align-items-center flex-column">
+            <h2 class="text-center mt-5">START FRAMEWORK</h2>
+            <div class="starIcon my-3"><i class="fa-solid fa-star"></i></div>
+            <div class="row g-5 mt-4">
+                <div class="col-md-4" *ngFor="let box of boxes">
+                    <div class="imgBox rounded-3 position-relative overflow-hidden">
+                        <img [src]="box" alt="" class="w-100 rounded-3">
+                        <div class="img-layer d-flex justify-content-center align-items-center text-white" (click)="clickImg($event)">
+                            <i class="fa-solid fa-plus fa-5x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="clickedLayer position-fixed top-0 bottom-0 w-100 d-flex justify-content-center align-items-center d-none" (click)="closeLayer($event)">
+    <div class="text-center">
+        <img src="" alt="" class="w-75 rounded-3">
+    </div>
+</div>

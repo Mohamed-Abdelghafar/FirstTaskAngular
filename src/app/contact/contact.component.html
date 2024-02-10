@@ -1,0 +1,35 @@
+<section class="contact d-flex justify-content-center align-items-center pb-5">
+    <div class="container">
+        <div class="d-flex justify-content-center align-items-center flex-column">
+            <h2 class="text-center mt-5">CONATCT SECTION</h2>
+            <div class="starIcon my-3"><i class="fa-solid fa-star"></i></div>
+            <form class="w-75">
+                <div class="my-2">
+                    <div class="position-relative input-header overflow-hidden px-2">
+                        <h6 class="position-absolute mt-2">userName :</h6>
+                    </div>
+                    <input type="text" name="userName" placeholder="Enter Your Name" class="form-control border-0 border-bottom "  (keyup)="changeInputValue($event)">
+                </div>
+                <div class="my-2">
+                    <div class="position-relative input-header overflow-hidden px-2">
+                        <h6 class="position-absolute mt-2">userAge :</h6>
+                    </div>
+                    <input type="number" name="userAge" placeholder="Enter Your Age" class="form-control border-0 border-bottom " (keyup)="changeInputValue($event)">
+                </div>
+                <div class="my-2">
+                    <div class="position-relative input-header overflow-hidden px-2">
+                        <h6 class="position-absolute mt-2">userEmail :</h6>
+                    </div>
+                    <input type="email" name="userEmail" placeholder="Enter Your Email" class="form-control border-0 border-bottom " (keyup)="changeInputValue($event)">
+                </div>
+                <div class="my-2">
+                    <div class="position-relative input-header overflow-hidden px-2">
+                        <h6 class="position-absolute mt-2">userPassword :</h6>
+                    </div>
+                    <input type="password" name="userPass" placeholder="Enter Your Password" class="form-control border-0 border-bottom " (keyup)="changeInputValue($event)">
+                </div>
+                <button class="rounded-2 px-3 py-2 border-0 mt-5 mb-2 ms-2" type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>

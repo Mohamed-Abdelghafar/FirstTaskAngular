@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@media screen and (max-width:500px) {
+    html {
+        font-size: 14px;
+    }
+    .active-link {
+        padding-left: 10px;
+    }
+}
+.starIcon::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    top: 50%;
+    left: 150%;
+}
+.starIcon::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    top: 50%;
+    right: 150%;
+}

@@ -1,0 +1,40 @@
+.contact {
+    min-height: 100vh;
+    padding-top:106px ;
+}
+h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #2C3E50;
+}
+.starIcon {
+    position: relative;
+    color: #2C3E50;
+}
+.starIcon::after{
+    background-color: #2C3E50;
+}
+.starIcon::before{
+    background-color: #2C3E50;
+}
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.input-header {
+    height: 28px;
+}
+h6 {
+    color: #1ABC9C;
+    top: 100%;
+    transition: 0.5s;
+}
+.up {
+    top:0;
+    transition: 0.5s;
+}
+button {
+    background-color: #1ABC9C;
+    color: white;
+}

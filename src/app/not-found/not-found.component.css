@@ -1,0 +1,17 @@
+.notFound {
+    background-color: #1ABC9C;
+    height: 100vh;
+}
+h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.starIcon {
+    position: relative;
+}
+.starIcon::after{
+    background-color: white;
+}
+.starIcon::before{
+    background-color: white;
+}

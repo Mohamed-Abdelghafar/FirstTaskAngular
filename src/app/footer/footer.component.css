@@ -1,0 +1,21 @@
+footer {
+    background-color: #2C3E50;
+}
+.iconBox {
+    --size:30px;
+    height: var(--size);
+    width: var(--size);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 17px;
+    cursor: pointer;
+}
+.footer-bootom {
+    background-color: #1A252F;
+}
+p {
+    margin-bottom: 0;
+}

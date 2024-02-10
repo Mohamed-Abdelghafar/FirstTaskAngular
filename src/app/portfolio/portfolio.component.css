@@ -1,0 +1,38 @@
+.poetfolio {
+    min-height: 100vh;
+    padding-top:106px ;
+}
+h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #2C3E50;
+}
+.starIcon {
+    position: relative;
+    color: #2C3E50;
+}
+.starIcon::after{
+    background-color: #2C3E50;
+}
+.starIcon::before{ 
+    background-color: #2C3E50;
+}
+.imgBox {
+    cursor: pointer;
+}
+.img-layer {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background-color: #1bb7a2c2;
+    opacity: 0;
+    transition: 0.7s;
+}
+.imgBox:hover .img-layer {
+    opacity: 1;
+}
+.clickedLayer {
+    background-color: rgba(0, 94, 255, 0.228);
+    z-index: 9999999;
+}
