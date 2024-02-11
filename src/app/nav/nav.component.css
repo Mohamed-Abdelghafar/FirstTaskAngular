@@ -1,6 +1,7 @@
 nav {
     background-color: #2C3E50;
     color: white;
+    transition: 0.5s;
 }
 .navbar-brand , .nav-link {
     color: white;
